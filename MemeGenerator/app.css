@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+
+.meme-generator {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-decoration: burlywood;
+}
+
+h3 {
+    color: black;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="url"],
+input[type="text"] {
+    width: calc(100% - 20px); /* Adjusting for padding */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
